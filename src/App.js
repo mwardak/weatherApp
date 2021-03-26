@@ -1,22 +1,26 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
 
-function App() {
+/**
+ * TODO: how will the user interact with the app?
+ * - search field?
+ * - user location detection
+ * - start small, scale up
+ * TODO: 
+ * - parent: CurrentWeather and Date
+ * - child: CurrentCity
+ * - child: CurrentDetails
+ * - child: ToggleDegrees
+ * - child: WeeklyForecast
+ * TODO: next steps:
+ * - get our openweather api key
+ */
+
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
     </div>
   );
